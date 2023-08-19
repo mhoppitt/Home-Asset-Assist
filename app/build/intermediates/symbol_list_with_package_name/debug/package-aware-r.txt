@@ -1570,7 +1570,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textWatcher
 id text_input_password_toggle
 id textinput_counter

@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,14 +22,10 @@ public final class ActivityHomepageBinding implements ViewBinding {
   @NonNull
   public final Button buttonCreatequote;
 
-  @NonNull
-  public final TextView textView;
-
   private ActivityHomepageBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button buttonCreatequote, @NonNull TextView textView) {
+      @NonNull Button buttonCreatequote) {
     this.rootView = rootView;
     this.buttonCreatequote = buttonCreatequote;
-    this.textView = textView;
   }
 
   @Override
@@ -66,13 +61,7 @@ public final class ActivityHomepageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
-        break missingId;
-      }
-
-      return new ActivityHomepageBinding((ConstraintLayout) rootView, buttonCreatequote, textView);
+      return new ActivityHomepageBinding((ConstraintLayout) rootView, buttonCreatequote);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
