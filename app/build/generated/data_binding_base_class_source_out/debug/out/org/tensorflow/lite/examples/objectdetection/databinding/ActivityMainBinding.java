@@ -4,6 +4,8 @@ package org.tensorflow.lite.examples.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -20,12 +22,20 @@ public final class ActivityMainBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
+  public final Button buttonFinish;
+
+  @NonNull
   public final FragmentContainerView fragmentContainer;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FragmentContainerView fragmentContainer) {
+  @NonNull
+  public final RelativeLayout relativeLayout;
+
+  private ActivityMainBinding(@NonNull CoordinatorLayout rootView, @NonNull Button buttonFinish,
+      @NonNull FragmentContainerView fragmentContainer, @NonNull RelativeLayout relativeLayout) {
     this.rootView = rootView;
+    this.buttonFinish = buttonFinish;
     this.fragmentContainer = fragmentContainer;
+    this.relativeLayout = relativeLayout;
   }
 
   @Override
@@ -55,13 +65,26 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button_finish;
+      Button buttonFinish = ViewBindings.findChildViewById(rootView, id);
+      if (buttonFinish == null) {
+        break missingId;
+      }
+
       id = R.id.fragment_container;
       FragmentContainerView fragmentContainer = ViewBindings.findChildViewById(rootView, id);
       if (fragmentContainer == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, fragmentContainer);
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((CoordinatorLayout) rootView, buttonFinish, fragmentContainer,
+          relativeLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

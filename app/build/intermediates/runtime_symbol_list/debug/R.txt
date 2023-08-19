@@ -1328,6 +1328,8 @@ int id animateToEnd 0x7f090047
 int id animateToStart 0x7f090048
 int id asConfigured 0x7f090049
 int id async 0x7f09004a
+int id attrib_name 0x7f09016c
+int id attrib_value 0x7f09016d
 int id auto 0x7f09004b
 int id autoComplete 0x7f09004c
 int id autoCompleteToEnd 0x7f09004d
@@ -1342,6 +1344,7 @@ int id bottom_sheet_layout 0x7f090055
 int id bounce 0x7f090056
 int id buttonPanel 0x7f090057
 int id button_createquote 0x7f090166
+int id button_finish 0x7f09016a
 int id cache_measures 0x7f090058
 int id camera_container 0x7f090059
 int id camera_fragment 0x7f09005a
@@ -1447,6 +1450,7 @@ int id line3 0x7f0900bd
 int id linear 0x7f0900be
 int id listMode 0x7f0900bf
 int id list_item 0x7f0900c0
+int id mainLayout 0x7f09016f
 int id masked 0x7f0900c1
 int id max_results_minus 0x7f0900c2
 int id max_results_plus 0x7f0900c3
@@ -1493,6 +1497,7 @@ int id progress_horizontal 0x7f0900eb
 int id radio 0x7f0900ec
 int id ratio 0x7f0900ed
 int id rectangles 0x7f0900ee
+int id relativeLayout 0x7f090169
 int id reverseSawtooth 0x7f0900ef
 int id right 0x7f0900f0
 int id right_icon 0x7f0900f1
@@ -1551,6 +1556,7 @@ int id stretch 0x7f090125
 int id submenuarrow 0x7f090126
 int id submit_area 0x7f090127
 int id tabMode 0x7f090128
+int id tableLayout 0x7f090170
 int id tag_accessibility_actions 0x7f090129
 int id tag_accessibility_clickable_spans 0x7f09012a
 int id tag_accessibility_heading 0x7f09012b
@@ -1564,11 +1570,13 @@ int id tag_transition_group 0x7f090132
 int id tag_unhandled_key_event_manager 0x7f090133
 int id tag_unhandled_key_listeners 0x7f090134
 int id tag_window_insets_animation_callback 0x7f090135
+int id tblObjects 0x7f09016e
 int id text 0x7f090136
 int id text2 0x7f090137
 int id textSpacerNoButtons 0x7f090138
 int id textSpacerNoTitle 0x7f090139
 int id textStart 0x7f09013a
+int id textView 0x7f090167
 int id textWatcher 0x7f09013b
 int id text_input_password_toggle 0x7f09013c
 int id textinput_counter 0x7f09013d
@@ -1669,6 +1677,7 @@ int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_homepage 0x7f0c003a
 int layout activity_main 0x7f0c001c
+int layout activity_results 0x7f0c003b
 int layout custom_dialog 0x7f0c001d
 int layout design_bottom_navigation_item 0x7f0c001e
 int layout design_bottom_sheet_dialog 0x7f0c001f
@@ -1694,6 +1703,7 @@ int layout notification_template_custom_big 0x7f0c0032
 int layout notification_template_icon_group 0x7f0c0033
 int layout notification_template_part_chronometer 0x7f0c0034
 int layout notification_template_part_time 0x7f0c0035
+int layout obj_tbl_row 0x7f0c003c
 int layout select_dialog_item_material 0x7f0c0036
 int layout select_dialog_multichoice_material 0x7f0c0037
 int layout select_dialog_singlechoice_material 0x7f0c0038

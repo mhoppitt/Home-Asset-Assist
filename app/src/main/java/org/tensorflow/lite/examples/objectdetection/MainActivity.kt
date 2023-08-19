@@ -16,8 +16,10 @@
 
 package org.tensorflow.lite.examples.objectdetection
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import org.tensorflow.lite.examples.objectdetection.databinding.ActivityMainBinding
 
@@ -33,6 +35,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
+
+        val buttonClick = findViewById<Button>(R.id.button_finish)
+        buttonClick.setOnClickListener {
+            val intent = Intent(this, ResultsActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onBackPressed() {

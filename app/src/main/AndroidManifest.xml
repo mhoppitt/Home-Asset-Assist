@@ -63,6 +63,11 @@
 
         </activity>
 
+        <activity android:name=".ResultsActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+        </activity>
+
     </application>
 
 </manifest>

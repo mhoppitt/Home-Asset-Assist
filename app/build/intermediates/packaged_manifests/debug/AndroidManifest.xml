@@ -72,6 +72,11 @@
                 android:name="android.notch_support"
                 android:value="true" />
         </activity>
+        <activity
+            android:name="org.tensorflow.lite.examples.objectdetection.ResultsActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" >
+        </activity>
 
         <uses-library
             android:name="androidx.window.extensions"

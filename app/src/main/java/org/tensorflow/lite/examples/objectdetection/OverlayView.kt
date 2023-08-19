@@ -103,6 +103,13 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         }
     }
 
+    data class ObjectDetected(
+            val name: String,
+            val score: Float,
+    ) {
+        override fun toString() = "ObjectDetected(\"$name\", $score)"
+    }
+
     fun setResults(
       detectionResults: MutableList<Detection>,
       imageHeight: Int,
@@ -113,9 +120,32 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         // PreviewView is in FILL_START mode. So we need to scale up the bounding box to match with
         // the size that the captured images will be displayed.
         scaleFactor = max(width * 1f / imageWidth, height * 1f / imageHeight)
+
+        for (result in results) {
+            val detectedObject = ObjectDetected(result.categories[0].label, result.categories[0].score)
+
+            val sameObjectInResultsList = resultsList.find { it.name.contains(detectedObject.name) }
+            val isSameObjectInResultsList = resultsList.any { it.name.contains(detectedObject.name) }
+
+            // If the object doesn't exist in resultsList
+            // Add to list
+            if (!isSameObjectInResultsList) {
+                resultsList.add(detectedObject)
+            }
+            // If the object exists in resultsList AND the score is higher than current entry
+            // Replace with new object
+            else if (isSameObjectInResultsList) {
+                if (sameObjectInResultsList != null) {
+                    if (detectedObject.score > sameObjectInResultsList.score) {
+                        resultsList[resultsList.indexOf(sameObjectInResultsList)] = detectedObject
+                    }
+                }
+            }
+        }
     }
 
     companion object {
+        val resultsList: MutableList<ObjectDetected> = ArrayList()
         private const val BOUNDING_RECT_TEXT_PADDING = 8
     }
 }

@@ -23,10 +23,23 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="653dp"
         android:orientation="vertical">
 
+        <!--        <androidx.appcompat.widget.Toolbar-->
+        <!--            android:id="@+id/toolbar"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="?attr/actionBarSize"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:background="@color/toolbar_background">-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:src="@drawable/tfl_logo" />-->
+        <!--        </androidx.appcompat.widget.Toolbar>-->
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragment_container"
             android:name="androidx.navigation.fragment.NavHostFragment"
@@ -38,18 +51,15 @@
             app:navGraph="@navigation/nav_graph"
             tools:context=".MainActivity" />
 
-        <!--        <androidx.appcompat.widget.Toolbar-->
-<!--            android:id="@+id/toolbar"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="?attr/actionBarSize"-->
-<!--            android:layout_alignParentTop="true"-->
-<!--            android:background="@color/toolbar_background">-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/tfl_logo" />-->
-<!--        </androidx.appcompat.widget.Toolbar>-->
-
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textSize="26sp"
+        app:layout_anchor="@+id/relativeLayout"
+        app:layout_anchorGravity="bottom|center" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

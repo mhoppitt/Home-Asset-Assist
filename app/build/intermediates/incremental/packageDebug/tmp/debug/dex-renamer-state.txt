@@ -1,4 +1,4 @@
-#Sat Aug 19 16:31:26 AEST 2023
+#Sat Aug 19 21:58:07 AEST 2023
 base.0=C\:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex

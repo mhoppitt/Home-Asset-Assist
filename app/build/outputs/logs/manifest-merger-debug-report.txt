@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
+ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
 MERGED from [androidx.databinding:databinding-adapters:7.1.2] C:\Users\mhopp\.gradle\caches\transforms-3\b4dde7a98fc2b8280631f1c434d5b950\transformed\databinding-adapters-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-ktx:7.1.2] C:\Users\mhopp\.gradle\caches\transforms-3\28e9b176e76ecf7d46a4dffce9776301\transformed\jetified-databinding-ktx-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.1.2] C:\Users\mhopp\.gradle\caches\transforms-3\f496c2f6a72e90b7a0576c107717df4d\transformed\databinding-runtime-7.1.2\AndroidManifest.xml:17:1-24:12
@@ -75,16 +75,16 @@ MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\mhopp\.gra
 MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\mhopp\.gradle\caches\transforms-3\c3a7f6e77814101d82cbb113edb460b1\transformed\jetified-tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\mhopp\.gradle\caches\transforms-3\f39c8af0786503261554f3eb95b2da3d\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\mhopp\.gradle\caches\transforms-3\2f9b4cd866e045b472b91b9ede8da678\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
 	package
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:21:5-59
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:20:5-51
@@ -92,7 +92,7 @@ INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detect
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:19:5-61
 	android:versionCode
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:18:5-63
@@ -109,7 +109,7 @@ ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection
 	android:name
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:30:22-62
 application
-ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:32:5-66:19
+ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:32:5-71:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mhopp\.gradle\caches\transforms-3\428bc4245e329d367008a32bfa16e7c6\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -196,6 +196,14 @@ ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:62:61-81
 	android:name
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:62:24-60
+activity#org.tensorflow.lite.examples.objectdetection.ResultsActivity
+ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:66:9-69:20
+	android:exported
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:67:13-36
+	android:theme
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:68:13-44
+	android:name
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:66:19-50
 uses-sdk
 INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
@@ -383,11 +391,11 @@ ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\
 	android:name
 		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
+IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
+IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-68:12 reason: tensorflow_lite_support.acceleration.configuration requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12 reason: tensorflow_lite_support.acceleration.configuration requested WRITE_EXTERNAL_STORAGE
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities
