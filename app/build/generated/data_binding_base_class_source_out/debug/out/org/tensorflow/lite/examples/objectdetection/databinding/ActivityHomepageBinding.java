@@ -4,12 +4,16 @@ package org.tensorflow.lite.examples.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -17,20 +21,111 @@ import org.tensorflow.lite.examples.objectdetection.R;
 
 public final class ActivityHomepageBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final Button buttonCreatequote;
+  public final BottomNavigationView bottomNavigation;
 
-  private ActivityHomepageBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button buttonCreatequote) {
+  @NonNull
+  public final ImageView carIns;
+
+  @NonNull
+  public final ImageView carInsHome;
+
+  @NonNull
+  public final ImageView carInsLife;
+
+  @NonNull
+  public final CardView cardView;
+
+  @NonNull
+  public final CardView cardView2;
+
+  @NonNull
+  public final CardView cardView3;
+
+  @NonNull
+  public final ConstraintLayout header;
+
+  @NonNull
+  public final ImageView img;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final TextView textView3;
+
+  @NonNull
+  public final TextView textView3Home;
+
+  @NonNull
+  public final TextView textView3Life;
+
+  @NonNull
+  public final TextView textView4;
+
+  @NonNull
+  public final TextView textView4Home;
+
+  @NonNull
+  public final TextView textView4Life;
+
+  @NonNull
+  public final TextView textView5;
+
+  @NonNull
+  public final TextView textView5Home;
+
+  @NonNull
+  public final TextView textView5Life;
+
+  @NonNull
+  public final View view;
+
+  @NonNull
+  public final View viewHome;
+
+  @NonNull
+  public final View viewLife;
+
+  private ActivityHomepageBinding(@NonNull RelativeLayout rootView,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull ImageView carIns,
+      @NonNull ImageView carInsHome, @NonNull ImageView carInsLife, @NonNull CardView cardView,
+      @NonNull CardView cardView2, @NonNull CardView cardView3, @NonNull ConstraintLayout header,
+      @NonNull ImageView img, @NonNull TextView textView2, @NonNull TextView textView3,
+      @NonNull TextView textView3Home, @NonNull TextView textView3Life, @NonNull TextView textView4,
+      @NonNull TextView textView4Home, @NonNull TextView textView4Life, @NonNull TextView textView5,
+      @NonNull TextView textView5Home, @NonNull TextView textView5Life, @NonNull View view,
+      @NonNull View viewHome, @NonNull View viewLife) {
     this.rootView = rootView;
-    this.buttonCreatequote = buttonCreatequote;
+    this.bottomNavigation = bottomNavigation;
+    this.carIns = carIns;
+    this.carInsHome = carInsHome;
+    this.carInsLife = carInsLife;
+    this.cardView = cardView;
+    this.cardView2 = cardView2;
+    this.cardView3 = cardView3;
+    this.header = header;
+    this.img = img;
+    this.textView2 = textView2;
+    this.textView3 = textView3;
+    this.textView3Home = textView3Home;
+    this.textView3Life = textView3Life;
+    this.textView4 = textView4;
+    this.textView4Home = textView4Home;
+    this.textView4Life = textView4Life;
+    this.textView5 = textView5;
+    this.textView5Home = textView5Home;
+    this.textView5Life = textView5Life;
+    this.view = view;
+    this.viewHome = viewHome;
+    this.viewLife = viewLife;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -55,13 +150,142 @@ public final class ActivityHomepageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button_createquote;
-      Button buttonCreatequote = ViewBindings.findChildViewById(rootView, id);
-      if (buttonCreatequote == null) {
+      id = R.id.bottom_navigation;
+      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigation == null) {
         break missingId;
       }
 
-      return new ActivityHomepageBinding((ConstraintLayout) rootView, buttonCreatequote);
+      id = R.id.car_ins;
+      ImageView carIns = ViewBindings.findChildViewById(rootView, id);
+      if (carIns == null) {
+        break missingId;
+      }
+
+      id = R.id.car_ins_home;
+      ImageView carInsHome = ViewBindings.findChildViewById(rootView, id);
+      if (carInsHome == null) {
+        break missingId;
+      }
+
+      id = R.id.car_ins_life;
+      ImageView carInsLife = ViewBindings.findChildViewById(rootView, id);
+      if (carInsLife == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView2;
+      CardView cardView2 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView3;
+      CardView cardView3 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.header;
+      ConstraintLayout header = ViewBindings.findChildViewById(rootView, id);
+      if (header == null) {
+        break missingId;
+      }
+
+      id = R.id.img;
+      ImageView img = ViewBindings.findChildViewById(rootView, id);
+      if (img == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3_home;
+      TextView textView3Home = ViewBindings.findChildViewById(rootView, id);
+      if (textView3Home == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3_life;
+      TextView textView3Life = ViewBindings.findChildViewById(rootView, id);
+      if (textView3Life == null) {
+        break missingId;
+      }
+
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView4_home;
+      TextView textView4Home = ViewBindings.findChildViewById(rootView, id);
+      if (textView4Home == null) {
+        break missingId;
+      }
+
+      id = R.id.textView4_life;
+      TextView textView4Life = ViewBindings.findChildViewById(rootView, id);
+      if (textView4Life == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5_home;
+      TextView textView5Home = ViewBindings.findChildViewById(rootView, id);
+      if (textView5Home == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5_life;
+      TextView textView5Life = ViewBindings.findChildViewById(rootView, id);
+      if (textView5Life == null) {
+        break missingId;
+      }
+
+      id = R.id.view;
+      View view = ViewBindings.findChildViewById(rootView, id);
+      if (view == null) {
+        break missingId;
+      }
+
+      id = R.id.view_home;
+      View viewHome = ViewBindings.findChildViewById(rootView, id);
+      if (viewHome == null) {
+        break missingId;
+      }
+
+      id = R.id.view_life;
+      View viewLife = ViewBindings.findChildViewById(rootView, id);
+      if (viewLife == null) {
+        break missingId;
+      }
+
+      return new ActivityHomepageBinding((RelativeLayout) rootView, bottomNavigation, carIns,
+          carInsHome, carInsLife, cardView, cardView2, cardView3, header, img, textView2, textView3,
+          textView3Home, textView3Life, textView4, textView4Home, textView4Life, textView5,
+          textView5Home, textView5Life, view, viewHome, viewLife);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

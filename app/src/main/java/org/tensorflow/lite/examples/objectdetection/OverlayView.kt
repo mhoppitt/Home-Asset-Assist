@@ -31,6 +31,13 @@ import org.tensorflow.lite.task.vision.detector.Detection
 
 class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
 
+    data class ObjectDetected(
+            val name: String,
+            val score: Float,
+    ) {
+        override fun toString() = "ObjectDetected(\"$name\", $score)"
+    }
+
     private var results: List<Detection> = LinkedList<Detection>()
     private var boxPaint = Paint()
     private var textBackgroundPaint = Paint()
@@ -103,12 +110,12 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         }
     }
 
-    data class ObjectDetected(
-            val name: String,
-            val score: Float,
-    ) {
-        override fun toString() = "ObjectDetected(\"$name\", $score)"
-    }
+//    data class ObjectDetected(
+//            val name: String,
+//            val score: Float,
+//    ) {
+//        override fun toString() = "ObjectDetected(\"$name\", $score)"
+//    }
 
     fun setResults(
       detectionResults: MutableList<Detection>,

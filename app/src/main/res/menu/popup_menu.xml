@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_insurance_option"
+        android:title="Home &amp; Contents Insurance"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/business_insurance_option"
+        android:title="Business Insurance"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/income_protection_option"
+        android:title="Income Protection"
+        app:showAsAction="never"/>
+</menu>

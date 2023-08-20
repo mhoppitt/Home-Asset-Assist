@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
 MERGED from [androidx.databinding:databinding-adapters:7.1.2] C:\Users\mhopp\.gradle\caches\transforms-3\b4dde7a98fc2b8280631f1c434d5b950\transformed\databinding-adapters-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-ktx:7.1.2] C:\Users\mhopp\.gradle\caches\transforms-3\28e9b176e76ecf7d46a4dffce9776301\transformed\jetified-databinding-ktx-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.1.2] C:\Users\mhopp\.gradle\caches\transforms-3\f496c2f6a72e90b7a0576c107717df4d\transformed\databinding-runtime-7.1.2\AndroidManifest.xml:17:1-24:12
@@ -20,12 +20,9 @@ MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\a33711081bc3d410333b2b98acd8e4cf\transformed\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mhopp\.gradle\caches\transforms-3\428bc4245e329d367008a32bfa16e7c6\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\mhopp\.gradle\caches\transforms-3\d14babad827a2c75b458f532260d1ed1\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\05248c423ac21edefa52048878e89a2d\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\mhopp\.gradle\caches\transforms-3\d147fe893046b840c7f2d808d47031e6\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.camera:camera-view:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\07a98b3c15b547440f344741c6868043\transformed\jetified-camera-view-1.1.0-beta03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\mhopp\.gradle\caches\transforms-3\97443fef03c66b91ef808fbb9a374c24\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\846f144749f986cec380c52190fce8fe\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a31777e6f761773f5473346321424de4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\4f5af605085bc6b7067852a318717a25\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a7c96a7b97ef83d94cf046ac96c359a1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.camera:camera-lifecycle:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\a212209695587f43ec324fba17b47b90\transformed\jetified-camera-lifecycle-1.1.0-beta03\AndroidManifest.xml:17:1-24:12
@@ -34,19 +31,18 @@ MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.4.0] C:\Users\mhopp\.g
 MERGED from [org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.4.0] C:\Users\mhopp\.gradle\caches\transforms-3\2eefe2f825fd58883509c46f2f9425e0\transformed\jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0\AndroidManifest.xml:2:1-6:12
 MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\mhopp\.gradle\caches\transforms-3\aaa10d8c2567c849709c801b8cfd9861\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\c134eb653d858685962b2adfb361a4e2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a9d2869e34f9d649e99462d77c78e02b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\mhopp\.gradle\caches\transforms-3\704fe8bfd8f4b9a14083c8dcd76d5b9f\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mhopp\.gradle\caches\transforms-3\90feab79b3cade40099c59d5b10232bb\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\mhopp\.gradle\caches\transforms-3\822f177b04f4fe5784f0f2cd35ccb583\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\mhopp\.gradle\caches\transforms-3\a079b9322b5473559dac9a976ec64daf\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\mhopp\.gradle\caches\transforms-3\ea3c6dbb07d3b5d8afc8b138e582fd07\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a29a7ca13afb5d8aa27c33f55e444f0b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\8a026de3c7ddf0fe2029b4ee8d52920f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\42065a541ef9e162167c3d6259837b5a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\0d66efb95121527396fa5a503c46a606\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\61fd6fb7c6db0a9fe4461caeebaa295c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\092f36b5d29079b2dfcdc9c46c3ae2a3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\40f931457f6b4b33012d546f26aae976\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\5559fb8c0c19c685fc8a5754ae27738a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\26e6290fabe91c370d54469fc1f30d61\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a29a7ca13afb5d8aa27c33f55e444f0b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\8a026de3c7ddf0fe2029b4ee8d52920f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\0f73fbdb256bda051764e0a06f45cdb5\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mhopp\.gradle\caches\transforms-3\3fd80ff8bd3eb7b46b0101ca2a4aaf40\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\85fcc4f79edf3c4357be882d6859e69d\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\mhopp\.gradle\caches\transforms-3\01a2c93fab2549103e81a089f4eabe02\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -68,23 +64,21 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\mhopp\.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\ebbfc944859f866296e1bb5a788f2f53\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\38864d37af567bad08080358de03c248\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\c18fff7c81b77b5d4442ddcb6dcbdc6f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\0089b777daffe0fed57869a8090b3085\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\4ffd24d45dd48219daf6be3e3fdfb23d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\cb357d21a7876ad0fd275c01fa366798\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\mhopp\.gradle\caches\transforms-3\08a6c5f6242ac518ce852f740be574de\transformed\jetified-tensorflow-lite-task-base-0.4.0\AndroidManifest.xml:2:1-6:12
 MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\mhopp\.gradle\caches\transforms-3\c3a7f6e77814101d82cbb113edb460b1\transformed\jetified-tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\mhopp\.gradle\caches\transforms-3\f39c8af0786503261554f3eb95b2da3d\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\mhopp\.gradle\caches\transforms-3\2f9b4cd866e045b472b91b9ede8da678\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
-INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
+INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
 	package
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:21:5-59
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:20:5-51
@@ -92,7 +86,7 @@ INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detect
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:19:5-61
 	android:versionCode
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12
 		INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:18:5-63
@@ -109,13 +103,13 @@ ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection
 	android:name
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:30:22-62
 application
-ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:32:5-71:19
+ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:32:5-75:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mhopp\.gradle\caches\transforms-3\428bc4245e329d367008a32bfa16e7c6\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mhopp\.gradle\caches\transforms-3\428bc4245e329d367008a32bfa16e7c6\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\05248c423ac21edefa52048878e89a2d\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\05248c423ac21edefa52048878e89a2d\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\mhopp\.gradle\caches\transforms-3\d147fe893046b840c7f2d808d47031e6\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\mhopp\.gradle\caches\transforms-3\d147fe893046b840c7f2d808d47031e6\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:25:5-36:19
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:25:5-36:19
 MERGED from [androidx.camera:camera-core:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\52e63c23c1e0e32c69f2e33d2c7bf549\transformed\jetified-camera-core-1.1.0-beta03\AndroidManifest.xml:25:5-36:19
@@ -204,6 +198,12 @@ ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:68:13-44
 	android:name
 		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:66:19-50
+meta-data#preloaded_fonts
+ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:71:9-73:57
+	android:resource
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:73:13-54
+	android:name
+		ADDED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:72:13-43
 uses-sdk
 INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml
@@ -240,18 +240,12 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mhopp\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mhopp\.gradle\caches\transforms-3\428bc4245e329d367008a32bfa16e7c6\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\mhopp\.gradle\caches\transforms-3\d14babad827a2c75b458f532260d1ed1\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\mhopp\.gradle\caches\transforms-3\d14babad827a2c75b458f532260d1ed1\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\05248c423ac21edefa52048878e89a2d\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\05248c423ac21edefa52048878e89a2d\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\mhopp\.gradle\caches\transforms-3\d147fe893046b840c7f2d808d47031e6\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\mhopp\.gradle\caches\transforms-3\d147fe893046b840c7f2d808d47031e6\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.camera:camera-view:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\07a98b3c15b547440f344741c6868043\transformed\jetified-camera-view-1.1.0-beta03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.camera:camera-view:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\07a98b3c15b547440f344741c6868043\transformed\jetified-camera-view-1.1.0-beta03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\mhopp\.gradle\caches\transforms-3\97443fef03c66b91ef808fbb9a374c24\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\mhopp\.gradle\caches\transforms-3\97443fef03c66b91ef808fbb9a374c24\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\846f144749f986cec380c52190fce8fe\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\846f144749f986cec380c52190fce8fe\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a31777e6f761773f5473346321424de4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a31777e6f761773f5473346321424de4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\4f5af605085bc6b7067852a318717a25\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\4f5af605085bc6b7067852a318717a25\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a7c96a7b97ef83d94cf046ac96c359a1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a7c96a7b97ef83d94cf046ac96c359a1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:21:5-23:41
@@ -266,6 +260,8 @@ MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\mhopp\.gradle\ca
 MERGED from [org.tensorflow:tensorflow-lite-gpu:2.9.0] C:\Users\mhopp\.gradle\caches\transforms-3\aaa10d8c2567c849709c801b8cfd9861\transformed\jetified-tensorflow-lite-gpu-2.9.0\AndroidManifest.xml:7:5-8:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\c134eb653d858685962b2adfb361a4e2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\c134eb653d858685962b2adfb361a4e2\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a9d2869e34f9d649e99462d77c78e02b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a9d2869e34f9d649e99462d77c78e02b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\mhopp\.gradle\caches\transforms-3\704fe8bfd8f4b9a14083c8dcd76d5b9f\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\mhopp\.gradle\caches\transforms-3\704fe8bfd8f4b9a14083c8dcd76d5b9f\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mhopp\.gradle\caches\transforms-3\90feab79b3cade40099c59d5b10232bb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -276,22 +272,18 @@ MERGED from [androidx.activity:activity:1.2.4] C:\Users\mhopp\.gradle\caches\tra
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\mhopp\.gradle\caches\transforms-3\a079b9322b5473559dac9a976ec64daf\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\mhopp\.gradle\caches\transforms-3\ea3c6dbb07d3b5d8afc8b138e582fd07\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\mhopp\.gradle\caches\transforms-3\ea3c6dbb07d3b5d8afc8b138e582fd07\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a29a7ca13afb5d8aa27c33f55e444f0b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a29a7ca13afb5d8aa27c33f55e444f0b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\8a026de3c7ddf0fe2029b4ee8d52920f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\8a026de3c7ddf0fe2029b4ee8d52920f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\42065a541ef9e162167c3d6259837b5a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\42065a541ef9e162167c3d6259837b5a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\0d66efb95121527396fa5a503c46a606\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\0d66efb95121527396fa5a503c46a606\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\61fd6fb7c6db0a9fe4461caeebaa295c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\61fd6fb7c6db0a9fe4461caeebaa295c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\092f36b5d29079b2dfcdc9c46c3ae2a3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\092f36b5d29079b2dfcdc9c46c3ae2a3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\40f931457f6b4b33012d546f26aae976\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\40f931457f6b4b33012d546f26aae976\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\5559fb8c0c19c685fc8a5754ae27738a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\5559fb8c0c19c685fc8a5754ae27738a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\26e6290fabe91c370d54469fc1f30d61\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\26e6290fabe91c370d54469fc1f30d61\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a29a7ca13afb5d8aa27c33f55e444f0b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\a29a7ca13afb5d8aa27c33f55e444f0b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\8a026de3c7ddf0fe2029b4ee8d52920f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\8a026de3c7ddf0fe2029b4ee8d52920f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\0f73fbdb256bda051764e0a06f45cdb5\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\0f73fbdb256bda051764e0a06f45cdb5\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mhopp\.gradle\caches\transforms-3\3fd80ff8bd3eb7b46b0101ca2a4aaf40\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mhopp\.gradle\caches\transforms-3\3fd80ff8bd3eb7b46b0101ca2a4aaf40\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\85fcc4f79edf3c4357be882d6859e69d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -334,10 +326,6 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mhopp\.gradle\caches\trans
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\38864d37af567bad08080358de03c248\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\c18fff7c81b77b5d4442ddcb6dcbdc6f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\c18fff7c81b77b5d4442ddcb6dcbdc6f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\0089b777daffe0fed57869a8090b3085\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\0089b777daffe0fed57869a8090b3085\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\4ffd24d45dd48219daf6be3e3fdfb23d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\mhopp\.gradle\caches\transforms-3\4ffd24d45dd48219daf6be3e3fdfb23d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\cb357d21a7876ad0fd275c01fa366798\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\mhopp\.gradle\caches\transforms-3\cb357d21a7876ad0fd275c01fa366798\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\mhopp\.gradle\caches\transforms-3\c3a7f6e77814101d82cbb113edb460b1\transformed\jetified-tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:4:3-71
@@ -391,11 +379,11 @@ ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\
 	android:name
 		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
+IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
+IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-73:12 reason: tensorflow_lite_support.acceleration.configuration requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:1-77:12 reason: tensorflow_lite_support.acceleration.configuration requested WRITE_EXTERNAL_STORAGE
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities

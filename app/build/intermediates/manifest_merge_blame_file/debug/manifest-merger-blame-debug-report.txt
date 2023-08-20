@@ -45,7 +45,7 @@
 37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 38
 39    <application
-39-->C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:32:5-71:19
+39-->C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:32:5-75:19
 40        android:allowBackup="true"
 40-->C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:36:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -118,45 +118,52 @@
 78-->C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:68:13-44
 79        </activity>
 80
-81        <uses-library
-81-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
-82            android:name="androidx.window.extensions"
-82-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
-83            android:required="false" />
-83-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
-84        <uses-library
-84-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
-85            android:name="androidx.window.sidecar"
-85-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
-86            android:required="false" />
-86-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
-87
-88        <service
-88-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
-89            android:name="androidx.camera.core.impl.MetadataHolderService"
-89-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
-90            android:enabled="false"
-90-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
-91            android:exported="false" >
-91-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
-92            <meta-data
-92-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
-93                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-93-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
-94                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-94-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
-95        </service>
-96
-97        <provider
-97-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-98            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-98-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-99            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
-99-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-100            android:exported="false"
-100-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-101            android:multiprocess="true" />
-101-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-102    </application>
-103
-104</manifest>
+81        <meta-data
+81-->C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:71:9-73:57
+82            android:name="preloaded_fonts"
+82-->C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:72:13-43
+83            android:resource="@array/preloaded_fonts" />
+83-->C:\Users\mhopp\StudioProjects\examples\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:73:13-54
+84
+85        <uses-library
+85-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+86            android:name="androidx.window.extensions"
+86-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+88        <uses-library
+88-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+89            android:name="androidx.window.sidecar"
+89-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-alpha09] C:\Users\mhopp\.gradle\caches\transforms-3\26826479586bfbefc2778b48118cf240\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+91
+92        <service
+92-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+93            android:name="androidx.camera.core.impl.MetadataHolderService"
+93-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+94            android:enabled="false"
+94-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+95            android:exported="false" >
+95-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+96            <meta-data
+96-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+97                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+97-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+98                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+98-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mhopp\.gradle\caches\transforms-3\d110310115f57cfb99b6deec4815cc75\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+99        </service>
+100
+101        <provider
+101-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+102            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+103            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+104            android:exported="false"
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+105            android:multiprocess="true" />
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mhopp\.gradle\caches\transforms-3\b687c1093e886a40e8cae0a18b67ded7\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+106    </application>
+107
+108</manifest>
