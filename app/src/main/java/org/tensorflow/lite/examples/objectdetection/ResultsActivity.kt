@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 class ResultsActivity : AppCompatActivity() {
 
     companion object {
-        const val KEY_HOME_INSURANCE_VISIBILITY = "KEY_HOME_INSURANCE_VISIBILITY" // key for Your value, You have to define each key for every value that You want to pass to another activity
+        const val KEY_HOME_INSURANCE_VISIBILITY = "KEY_HOME_INSURANCE_VISIBILITY"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +29,7 @@ class ResultsActivity : AppCompatActivity() {
         recyclerView.layoutManager = linearLayoutManager
         recyclerView.adapter = customAdapter
 
-        val btn_buy = findViewById<Button>(R.id.button_buy)
+        val btn_buy = findViewById<Button>(R.id.button_get_quote)
         btn_buy.setOnClickListener {
             val intent = Intent(this, HomePageActivity::class.java).apply {
                 putExtra(KEY_HOME_INSURANCE_VISIBILITY, View.VISIBLE)
@@ -68,10 +68,21 @@ class ResultsActivity : AppCompatActivity() {
         // Replace the contents of a view (invoked by the layout manager)
         override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
 
+            val confidencePercent = (dataSet[position].score) * 100
+            var confidenceString = confidencePercent.toString()
+            val confidenceStringShortened = if (confidenceString.length > 4) {
+                confidenceString.substring(0,5) + "%"
+            } else {
+                confidenceString.substring(0) + "%"
+            }
+
+            val objectName = dataSet[position].name.split(" ")
+                    .joinToString(separator = " ", transform = String::capitalize)
+
             // Get element from your dataset at this position and replace the
             // contents of the view with that element
-            viewHolder.object_name.text = dataSet[position].name
-            viewHolder.object_score.text = dataSet[position].score.toString()
+            viewHolder.object_name.text = objectName
+            viewHolder.object_score.text = "Confidence: " + confidenceStringShortened
         }
 
         // Return the size of your dataset (invoked by the layout manager)

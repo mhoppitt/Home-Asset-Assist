@@ -1773,6 +1773,7 @@ int id clip_vertical 0x7f090064
 int id collapseActionView 0x7f090065
 int id compatible 0x7f090066
 int id confirm_button 0x7f09017e
+int id constraintlayout 0x7f0901da
 int id container 0x7f090067
 int id content 0x7f090068
 int id contentPanel 0x7f090069
@@ -1873,6 +1874,7 @@ int id left 0x7f0900bb
 int id line1 0x7f0900bc
 int id line3 0x7f0900bd
 int id linear 0x7f0900be
+int id linearlayout 0x7f0901d8
 int id listMode 0x7f0900bf
 int id list_item 0x7f0900c0
 int id mainLayout 0x7f09016f
@@ -1924,6 +1926,7 @@ int id notification_background 0x7f0900d3
 int id notification_main_column 0x7f0900d4
 int id notification_main_column_container 0x7f0900d5
 int id object_name 0x7f0901d4
+int id object_price 0x7f0901d9
 int id object_score 0x7f0901d5
 int id off 0x7f0900d6
 int id on 0x7f0900d7

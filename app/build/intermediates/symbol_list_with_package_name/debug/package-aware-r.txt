@@ -1774,6 +1774,7 @@ id clip_vertical
 id collapseActionView
 id compatible
 id confirm_button
+id constraintlayout
 id container
 id content
 id contentPanel
@@ -1874,6 +1875,7 @@ id left
 id line1
 id line3
 id linear
+id linearlayout
 id listMode
 id list_item
 id mainLayout
@@ -1925,6 +1927,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id object_name
+id object_price
 id object_score
 id off
 id on
