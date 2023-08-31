@@ -24,7 +24,7 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_results.xml"
     },
     {
-        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\obj_tbl_row.xml",
-        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\obj_tbl_row.xml"
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_qsp.xml",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_qsp.xml"
     }
 ]

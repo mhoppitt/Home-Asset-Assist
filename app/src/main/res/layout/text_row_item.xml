@@ -25,45 +25,122 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:id="@+id/linearlayout"
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/btn_save"
+                android:layout_width="30dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_marginEnd="10dp"
+                android:layout_weight=".05"
+                android:adjustViewBounds="true"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/save_icon"
+                android:tint="#004346"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
+                app:layout_constraintTop_toBottomOf="@+id/object_name" />
+
+            <ImageButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight=".05"
+                android:adjustViewBounds="true"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cancel_icon"
+                android:tint="#9A0101"
+                android:visibility="invisible"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/btn_save" />
+
+            <ImageButton
+                android:id="@+id/btn_edit"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight=".05"
+                android:adjustViewBounds="true"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/edit_icon"
+                android:tint="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btn_delete"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight=".05"
+                android:adjustViewBounds="true"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/close_icon"
+                android:tint="#000000"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <TextView
-                    android:id="@+id/object_name"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:layout_weight=".50"
-                    android:text="TextView"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/object_price"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_weight=".50"
-                    android:text="$1000"
-                    android:textSize="20sp" />
-            </LinearLayout>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/object_score"
+                android:id="@+id/object_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/object_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:text="TextView"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_weight="0.50"
+                android:background="@null"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical"
+                android:inputType="number"
+                android:singleLine="true"
+                android:text="1000"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="@+id/object_name"
+                app:layout_constraintStart_toStartOf="@+id/object_name"
+                app:layout_constraintTop_toBottomOf="@+id/object_name" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Identification Confidence"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/linearlayout" />
+                app:layout_constraintTop_toBottomOf="@+id/object_price" />
+
+            <ProgressBar
+                android:id="@+id/object_score"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="320sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:scaleY="2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

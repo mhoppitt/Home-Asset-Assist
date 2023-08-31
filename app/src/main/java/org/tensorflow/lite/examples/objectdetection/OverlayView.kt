@@ -32,10 +32,11 @@ import org.tensorflow.lite.task.vision.detector.Detection
 class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
 
     data class ObjectDetected(
-            val name: String,
-            val score: Float,
+        val name: String,
+        val score: Float,
+        var price: Int,
     ) {
-        override fun toString() = "ObjectDetected(\"$name\", $score)"
+        override fun toString() = "ObjectDetected(\"$name\", $score, $price)"
     }
 
     private var results: List<Detection> = LinkedList<Detection>()
@@ -110,13 +111,6 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         }
     }
 
-//    data class ObjectDetected(
-//            val name: String,
-//            val score: Float,
-//    ) {
-//        override fun toString() = "ObjectDetected(\"$name\", $score)"
-//    }
-
     fun setResults(
       detectionResults: MutableList<Detection>,
       imageHeight: Int,
@@ -129,7 +123,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         scaleFactor = max(width * 1f / imageWidth, height * 1f / imageHeight)
 
         for (result in results) {
-            val detectedObject = ObjectDetected(result.categories[0].label, result.categories[0].score)
+            val detectedObject = ObjectDetected(result.categories[0].label, result.categories[0].score, 500)
 
             val sameObjectInResultsList = resultsList.find { it.name.contains(detectedObject.name) }
             val isSameObjectInResultsList = resultsList.any { it.name.contains(detectedObject.name) }
@@ -137,7 +131,9 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             // If the object doesn't exist in resultsList
             // Add to list
             if (!isSameObjectInResultsList) {
-                resultsList.add(detectedObject)
+                if (!detectedObject.name.equals("person")) {
+                    resultsList.add(detectedObject)
+                }
             }
             // If the object exists in resultsList AND the score is higher than current entry
             // Replace with new object

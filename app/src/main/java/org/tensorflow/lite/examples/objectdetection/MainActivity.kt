@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         val buttonClick = findViewById<Button>(R.id.button_finish)
         buttonClick.setOnClickListener {
-            val intent = Intent(this, ResultsActivity::class.java)
+            val intent = Intent(this, QSPActivity::class.java)
             startActivity(intent)
         }
     }
