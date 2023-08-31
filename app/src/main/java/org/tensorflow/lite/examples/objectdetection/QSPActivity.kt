@@ -56,6 +56,14 @@ class QSPActivity : AppCompatActivity() {
         val isComingBack = intent.getBooleanExtra(ResultsActivity.KEY_PRESSED_BACK, false)
         val spinnerOverlay: ConstraintLayout = findViewById(R.id.spinnerOverlay)
 
+        val btn_buypolicy: Button = findViewById(R.id.bt_buypolicy)
+        btn_buypolicy.setOnClickListener {
+            val intent = Intent(this, HomePageActivity::class.java).apply {
+                putExtra(ResultsActivity.KEY_HOME_INSURANCE_VISIBILITY, View.VISIBLE)
+            }
+            startActivity(intent)
+        }
+
         var totalContentsSum = 0
         var finishedItems = 1
         val tv_totalcontents = findViewById<TextView>(R.id.tv_totalcontents)
@@ -88,7 +96,7 @@ class QSPActivity : AppCompatActivity() {
                             println(OverlayView.resultsList.size)
                             if ((finishedItems+1).equals(OverlayView.resultsList.size) || shouldTimeout) {
                                 println("here")
-                                tv_premiumamount.text = format.format(totalContentsSum / 1.57)
+                                tv_premiumamount.text = format.format(totalContentsSum / 3.12)
                                 changePage(isComingBack)
                                 spinnerOverlay.setVisibility(View.INVISIBLE)
                             }
@@ -107,7 +115,7 @@ class QSPActivity : AppCompatActivity() {
 
                 tv_totalcontents.text = format.format(sum)
             }
-            tv_premiumamount.text = format.format(sum / 4.12)
+            tv_premiumamount.text = format.format(sum / 3.12)
             spinnerOverlay.setVisibility(View.INVISIBLE)
         }
 
@@ -168,4 +176,19 @@ class QSPActivity : AppCompatActivity() {
     interface ResponseCallbacks {
         fun onSuccess(avg: Int?)
     }
+//
+//    override fun onBackPressed() {
+//        if (Build.VERSION.SDK_INT == Build.VERSION_CODES.Q) {
+//            // Workaround for Android Q memory leak issue in IRequestFinishCallback$Stub.
+//            // (https://issuetracker.google.com/issues/139738913)
+//            finishAfterTransition()
+//        } else {
+//            super.onBackPressed()
+//
+//            val intent = Intent(this, HomePageActivity::class.java)
+//            OverlayView.resultsList.clear()
+//            startActivity(intent)
+//            finish()
+//        }
+//    }
 }

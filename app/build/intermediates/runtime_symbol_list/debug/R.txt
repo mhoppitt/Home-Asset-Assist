@@ -1751,13 +1751,13 @@ int id bottom 0x7f0a0058
 int id bottom_navigation 0x7f0a0059
 int id bottom_sheet_layout 0x7f0a005a
 int id bounce 0x7f0a005b
+int id bt_buypolicy 0x7f0a01e7
 int id bt_getcontentsdetails 0x7f0a005c
 int id btn_cancel 0x7f0a005d
 int id btn_delete 0x7f0a005e
 int id btn_edit 0x7f0a005f
 int id btn_save 0x7f0a0060
 int id business_insurance_option 0x7f0a0061
-int id button2 0x7f0a0062
 int id button3 0x7f0a0063
 int id buttonPanel 0x7f0a0064
 int id button_finish 0x7f0a0065
