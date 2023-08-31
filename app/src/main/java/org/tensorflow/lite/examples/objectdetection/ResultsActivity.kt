@@ -57,7 +57,7 @@ class ResultsActivity : AppCompatActivity() {
 
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
         recyclerView.setFocusable(false)
-        recyclerView.setNestedScrollingEnabled(false)
+//        recyclerView.setNestedScrollingEnabled(false)
         val linearLayoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = linearLayoutManager
         recyclerView.adapter = customAdapter
