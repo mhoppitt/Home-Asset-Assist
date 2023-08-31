@@ -130,7 +130,7 @@ class QSPActivity : AppCompatActivity() {
             "Sydney, New South Wales, Australia",
             "en",
             "us",
-            "7594b7102f18a6af20effd514d08d01436c832697a301fb3edbf75b5ea2e1bbc"
+            "94aa21c6f1ba8cbb2cb58fbaf470d4a00845add206024048432cd9b413e9de50"
         )
 
         call.enqueue(object : Callback<JsonElement> {
