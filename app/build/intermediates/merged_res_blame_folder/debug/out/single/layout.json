@@ -16,6 +16,14 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
     },
     {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\consent_dialog.xml",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\consent_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_homepage.xml",
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_homepage.xml"
     },
