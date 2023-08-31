@@ -24,12 +24,16 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
     },
     {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_qsp.xml.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_qsp.xml"
+    },
+    {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_car_logo.xml.flat",
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\car_logo.xml"
     },
     {
-        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_qsp.xml.flat",
-        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\activity_qsp.xml"
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.png.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_home_icon.xml.flat",
@@ -40,12 +44,12 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.png.flat",
-        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\back.png"
-    },
-    {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_consent_dialog.xml.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\consent_dialog.xml"
     },
     {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_plus_icon.xml.flat",
@@ -72,12 +76,12 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\mortgage.png"
     },
     {
-        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_lounge.png.flat",
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\lounge.png"
+    },
+    {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -92,12 +96,16 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\text_row_item.xml"
     },
     {
-        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus.xml.flat",
-        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\ic_minus.xml"
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_modal.xml.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\rounded_modal.xml"
     },
     {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus.xml.flat",
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus.xml.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\ic_minus.xml"
     },
     {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
@@ -152,6 +160,10 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\layout\\fragment_camera.xml"
     },
     {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_video_icon.png.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\video_icon.png"
+    },
+    {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_cancel_icon.xml.flat",
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\cancel_icon.xml"
     },
@@ -196,12 +208,12 @@
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\drawable\\close_icon.xml"
     },
     {
-        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\mhopp\\StudioProjects\\examples\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_insurance_icon.xml.flat",

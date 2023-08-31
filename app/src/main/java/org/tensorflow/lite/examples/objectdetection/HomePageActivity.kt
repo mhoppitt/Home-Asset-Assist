@@ -1,9 +1,12 @@
 package org.tensorflow.lite.examples.objectdetection
 
+import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
+import android.widget.Button
+import android.widget.ImageView
 import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -36,8 +39,22 @@ class HomePageActivity : AppCompatActivity() {
                 popupMenu.menuInflater.inflate(R.menu.popup_menu, popupMenu.menu)
                 popupMenu.setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener { item ->
                     when (item.itemId) {
-                        R.id.home_insurance_option ->
-                            startActivity(Intent(this, MainActivity::class.java))
+                        R.id.home_insurance_option -> {
+                            val view = layoutInflater.inflate(R.layout.consent_dialog, null)
+                            val builder = AlertDialog.Builder(this).create()
+                            builder.setView(view)
+                            builder.show()
+                            val btn_startquote = view.findViewById<Button>(R.id.btn_startquote)
+                            btn_startquote.setOnClickListener {
+                                val intent = Intent(this, MainActivity::class.java)
+                                startActivity(intent)
+                            }
+                            val btn_close = view.findViewById<ImageView>(R.id.btn_close)
+                            btn_close.setOnClickListener {
+                                builder.dismiss()
+                                popupMenu.dismiss()
+                            }
+                        }
 
                         R.id.business_insurance_option ->
                             Toast.makeText(this@HomePageActivity, "You Clicked : " + item.title, Toast.LENGTH_SHORT).show()

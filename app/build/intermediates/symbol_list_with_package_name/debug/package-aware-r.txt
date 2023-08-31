@@ -1653,12 +1653,14 @@ drawable pay_button
 drawable plus_icon
 drawable profile_icon
 drawable rewards_icon
+drawable rounded_modal
 drawable save_icon
 drawable test_custom_background
 drawable tfl_logo
 drawable toggle_button
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable video_icon
 font archivo_bold
 id ALT
 id BOTTOM_END
@@ -1755,9 +1757,11 @@ id bounce
 id bt_buypolicy
 id bt_getcontentsdetails
 id btn_cancel
+id btn_close
 id btn_delete
 id btn_edit
 id btn_save
+id btn_startquote
 id business_insurance_option
 id button3
 id buttonPanel
@@ -1879,6 +1883,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageView_1
 id imageView_header
 id img
@@ -2080,6 +2085,9 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
+id textView14
+id textView15
 id textView2
 id textView20
 id textView3
@@ -2093,6 +2101,7 @@ id textView5
 id textView5_home
 id textView5_life
 id textView6
+id textView9
 id textWatcher
 id text_input_end_icon
 id text_input_start_icon
@@ -2213,6 +2222,7 @@ layout activity_homepage
 layout activity_main
 layout activity_qsp
 layout activity_results
+layout consent_dialog
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
