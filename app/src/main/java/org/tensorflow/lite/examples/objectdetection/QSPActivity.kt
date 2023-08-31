@@ -59,6 +59,15 @@ class QSPActivity : AppCompatActivity() {
         var totalContentsSum = 0
         var finishedItems = 1
         val tv_totalcontents = findViewById<TextView>(R.id.tv_totalcontents)
+        val tv_premiumamount = findViewById<TextView>(R.id.tv_premiumamount)
+
+        var shouldTimeout = false
+
+        thread {
+            Thread.sleep(12000)
+            println("timeout")
+            shouldTimeout = true
+        }
 
         if (!isComingBack) {
             OverlayView.resultsList.forEachIndexed { index, element ->
@@ -77,8 +86,9 @@ class QSPActivity : AppCompatActivity() {
 
                             println(finishedItems)
                             println(OverlayView.resultsList.size)
-                            if ((finishedItems+1).equals(OverlayView.resultsList.size)) {
+                            if ((finishedItems+1).equals(OverlayView.resultsList.size) || shouldTimeout) {
                                 println("here")
+                                tv_premiumamount.text = format.format(totalContentsSum / 1.57)
                                 changePage(isComingBack)
                                 spinnerOverlay.setVisibility(View.INVISIBLE)
                             }
@@ -88,14 +98,16 @@ class QSPActivity : AppCompatActivity() {
             }
         } else {
             var sum = 0
+            val format: NumberFormat = NumberFormat.getCurrencyInstance()
+            format.setMaximumFractionDigits(0)
+            format.setCurrency(Currency.getInstance("AUD"))
+
             OverlayView.resultsList.forEachIndexed { index, element ->
                 sum += element.price
-                val format: NumberFormat = NumberFormat.getCurrencyInstance()
-                format.setMaximumFractionDigits(0)
-                format.setCurrency(Currency.getInstance("AUD"))
 
                 tv_totalcontents.text = format.format(sum)
             }
+            tv_premiumamount.text = format.format(sum / 4.12)
             spinnerOverlay.setVisibility(View.INVISIBLE)
         }
 
